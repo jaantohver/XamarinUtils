@@ -12,8 +12,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)ImageUtils\ImageFilters.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ImageUtils\ImageUtils.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ImageUtils\ImageTransforms.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DateTimeUtils\DateTimeUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)ImageUtils\" />
+    <Folder Include="$(MSBuildThisFileDirectory)DateTimeUtils\" />
   </ItemGroup>
 </Project>
