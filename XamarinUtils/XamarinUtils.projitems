@@ -13,9 +13,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)ImageUtils\ImageUtils.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ImageUtils\ImageTransforms.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DateTimeUtils\DateTimeUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MathUtils\MathUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)ImageUtils\" />
     <Folder Include="$(MSBuildThisFileDirectory)DateTimeUtils\" />
+    <Folder Include="$(MSBuildThisFileDirectory)MathUtils\" />
   </ItemGroup>
 </Project>
